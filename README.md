@@ -1,7 +1,7 @@
 # ☸️ Azure AKS Provisioning & Deployment
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=240&text=Azure%20AKS%20Provisioning%20%26%20Deployment&fontSize=38&fontAlignY=40&desc=Terraform%20%7C%20Azure%20Kubernetes%20Service%20%7C%20DevOps&descAlignY=60&fontColor=ffffff&animation=fadeIn&color=0:0078D4,50:326CE5,100:0D1117"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:0078D4,50:326CE5,100:0D1117&text=Azure%20AKS%20Provisioning%20and%20Deployment&fontSize=38&fontColor=ffffff&animation=fadeIn&desc=Terraform%20%7C%20AKS%20%7C%20Kubernetes%20%7C%20DevOps&descAlignY=65&descSize=18" />
 </p>
 
 <p align="center">
