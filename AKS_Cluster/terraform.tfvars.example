@@ -1,0 +1,16 @@
+# Sample terraform.tfvars file
+resource_group_name = "rg-aks-dev"
+location            = "East US"
+cluster_name        = "dev-aks-cluster"
+dns_prefix          = "devaks"
+node_count          = 2
+vm_size             = "Standard_DS2_v2"
+acr_name            = "myaksregistry2026"
+acr_sku             = "Standard"
+
+tags = {
+  Environment = "Development"
+  Owner       = "Priya Jaiswal"
+  Project     = "Azure-AKS-Provisioning"
+  ManagedBy   = "Terraform"
+}
