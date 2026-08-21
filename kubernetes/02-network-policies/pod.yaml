@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod
+  namespace: dev
+  labels:
+    app: nginx-pod
+spec:
+  containers:
+  - name: nginx
+    image: nginx:latest
+    ports:
+    - containerPort: 80
+      
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: firefox-pod
+  namespace: dev
+  labels:
+    app: firefox-pod
+spec:
+  containers:
+  - name: firefox
+    image: lscr.io/linuxserver/firefox:latest
+    ports:
+    - containerPort: 3001
+     
